@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>5-2</title>
+		<style> 
+			*{margin:0px;padding:0px;}
+			#box1{
+				width:200px;height:200px;
+				border:1px solid gray;
+				margin:100px auto;
+				text-align:center;
+				background-image:url(img1.png);
+			}
+			#box2{
+				transform-style:preserve-3d;
+				perspective:105px;
+			}
+			#box1{
+				transform:rotateY(30deg);
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box2">
+			<div id="box1">サンプル</div>
+		</div>
+	</body>
+</html>

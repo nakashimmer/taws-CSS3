@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>2-2-2</title>
+    <title>2-1-1</title>
     <style>
         * {
             margin: 0;
@@ -21,23 +21,12 @@
             margin: 5px auto;
         }
         
-        li {
-            position: relative;
-            border: none;
-            text-align: left;
-            text-indent: 2em;
+        li:first-of-type {
+            color: red;
         }
         
-        li:before {
-            content: "";
-            background-color: pink;
-            display: block;
-            width: 1em;
-            height: 1em;
-            position: absolute;
-            top: 3px;
-            left: 3px;
-            border-radius: 50%;
+        li:last-of-type {
+            color: blue;
         }
     </style>
 </head>

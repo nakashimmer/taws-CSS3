@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# 東京アプリ・ワークショップ「CSS3」  
 
-You can use the [editor on GitHub](https://github.com/nakashimmer/tawsCSS3/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+これらのファイルは、東京アプリ・ワークショップが主催する、「CSS3」ワークショップの教材です。  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CSS3のURLはこちら  
+* <a href="https://www.street-academy.com/myclass/1915?conversion_name=direct_message&tracking_code=d1bcb57ba2bf4e9759627f4212a96a3e">1日まるごとどっぷりCSS3</a>  
+* <a href="https://tokyoappwork.shop">東京アプリ・ワークショップ</a>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nakashimmer/tawsCSS3/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+サイトから紹介文を引用
+> どっぷりHTML5にひたってみませんか？
+>
+> WEBページを作るためのHTMLは、2014/10/28に「HTML5」として大幅な改定が行われました。単なるサイトから、よりリッチなデザインで動きのあるWEBアプリケーションへ。そんなHTML5に一日どっぷりなワークショップ。ぜひご参加ください。
+>
+>CSS3は単に枠線を書くだけではありません。形を自在に変形させて、橢円や正円のボタンや、球、三角形も作ることができます。
+>
+>さらにCSS3ならではの変形やアニメーション、そして３次元表示まで。最終的に、CSS3だけでFlashのような効果の実現を目指します。
+>
+>講座の雰囲気はとても和気あいあいとしています ⇒ http://www.facebook.com/tokyoAppWorkShop
+>
+>このコースは入門講座( https://www.street-academy.com/myclass/277 )を受講した初心者のかたを対象に、HTML5の「CSS3」について一緒に学ぶ６時間です。入門講座がまだの方も受講できますが、後でもいいので受講していただけるとうれしいです。

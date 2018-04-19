@@ -8,15 +8,14 @@
 			*{margin:0;padding:0;font-size:16px;line-height:30px;}
 			h1{text-align:center;font-size:2em;background-color:gray;color:white;line-height:2em;}
 			main{max-width:800px;margin:0 auto;}
-			main>section{border:1px dotted gray;border-radius:1em;}
-			section{margin:0.5em;padding:0.5em;}
+			main>section{margin:0em;padding:0.5em;}
 			ol,ul{margin-left:2em;}
 			p{margin-bottom:0.5em;
 				text-align:justify;
 				text-justify:inter-ideograph;
 			}
 			.attention{
-				background-color: pink;
+				background-color: #ff4;
 			}
 			a{text-decoration:none;color:brown;font-weight: bold;
 				display:inline-block;border-bottom:1px dotted red;
@@ -34,6 +33,7 @@
 			}
 			.flex{display:flex;}
 			.flex li{width:20%;list-style:none;}
+			summary h3{display:inline;}
 		</style>
 	</head>
 	<body>
@@ -88,7 +88,8 @@
 				</ul>
 			</section>
 			<section>
-				<h3>サンプル完成品</h3>
+				<details>
+				<summary><h3>サンプル完成品</h3></summary>
 				<section>
 					<h4>1.基本</h4>
 					<ul class="flex">
@@ -134,7 +135,8 @@
 						<li><a target="_blank" href="finish/8/8-1.html">8-1</a></li>
 					</ul>
 				</ul>
-
+				</section>
+				</details>
 			</section>
 		</main>
 		<footer>

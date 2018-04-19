@@ -3,23 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<title>4-3</title>
-
 		<style>
 			*{margin:0px;padding:0px;}
-			#box1{
+			div{
+				border: 1px solid gray;
+				margin:100px auto;
 				width:200px;height:200px;
-				margin:50px auto;
-				line-height:200px;
+				text-align:center;line-height:200px;font-size:30px;
 				border:1px solid gray;
-				text-align:center;
 			}
-			
-			#box1{transition:font-size 1s ease-in-out 0s;}
-			#box1:hover{font-size:32px;}
-			
+			.css1{
+				background:linear-gradient(
+					45deg, white 50%, blue 80%
+				);
+			}
+			.css2{background:
+				radial-gradient(
+					circle at top left, white 50%, blue 80%
+				);
+			}
+
 		</style>
 	</head>
 	<body>
-		<div id="box1">サンプル1</div>
+		<div class="css1">線形</div>
+		<div class="css2">円形</div>
 	</body>
 </html>

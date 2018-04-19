@@ -2,34 +2,31 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>5-3</title>
-		<style> 
+		<title>7-3</title>
+
+		<style>
 			*{margin:0px;padding:0px;}
-			#box1{
+			div{
 				width:200px;height:200px;
+				margin:50px auto;
+				line-height:200px;
 				border:1px solid gray;
-				margin:100px auto;
 				text-align:center;
-				background-image:url(img1.png);
-			}
-			#box2{
-				transform-style:preserve-3d;
-				perspective:105px;
-			}
-			#box1{
-				animation:anime 5s ease-in-out 0s infinite normal;
-				animation-fill-mode:both;
 			}
 			
-			@keyframes anime{
-				0%{transform:rotateX(0deg) rotateY(0deg);}
-				100%{transform:rotateX(360deg) rotateY(360deg);}
+			.css5{transition:
+				font-size 1s linear 0s,
+				color 1s linear 0s,
+				background 1s linear 0s;
+			}
+			.css5:hover{
+				font-size:32px;
+				color:white;
+				background-color:gray;
 			}
 		</style>
 	</head>
 	<body>
-		<div id="box2">
-			<div id="box1">サンプル</div>
-		</div>
+		<div class="css5">css</div>
 	</body>
 </html>

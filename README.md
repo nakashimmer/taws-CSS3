@@ -1,3 +1,3 @@
-# 東京アプリ・ワークショップ「HTML5入門」  
+# 東京アプリ・ワークショップ「CSS3」  
 
-Github page https://nakashimmer.github.io/tawsHTML5/index.html
+Github page https://nakashimmer.github.io/tawsCSS3/index.html

@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>4-1</title>
+		<title>4-2-2</title>
+
 		<style>
 			*{margin:0px;padding:0px;}
 			div{
@@ -11,19 +12,22 @@
 				line-height:200px;
 				border:1px solid gray;
 				text-align:center;
-				background-image:url(img1.png);
 			}
 			
-			.css1{}
-			.css2{}
-			.css3{}
-			.css4{}
+			.css5{
+				transition:
+					font-size 1s linear 0s,
+					color 1s linear 0s,
+					background 1s linear 0s;
+			}
+			.css5:hover{
+				font-size:32px;
+				color:white;
+				background-color:gray;
+			}
 		</style>
 	</head>
 	<body>
-		<div class="css1">rotate</div>
-		<div class="css2">scale</div>
-		<div class="css3">skew</div>
-		<div class="css4">translate</div>
+		<div class="css5">css</div>
 	</body>
 </html>

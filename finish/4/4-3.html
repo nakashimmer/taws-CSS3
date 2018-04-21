@@ -3,30 +3,27 @@
 	<head>
 		<meta charset="utf-8">
 		<title>4-3</title>
-		<style>
+		<style> 
 			*{margin:0px;padding:0px;}
 			div{
-				border: 1px solid gray;
-				margin:100px auto;
 				width:200px;height:200px;
-				text-align:center;line-height:200px;font-size:30px;
 				border:1px solid gray;
-			}
-			.css1{
-				background:linear-gradient(
-					45deg, white 50%, blue 80%
-				);
-			}
-			.css2{background:
-				radial-gradient(
-					circle at top left, white 50%, blue 80%
-				);
+				margin:100px auto;
+				text-align:center;
+				background-image:url(img1.png);
 			}
 
+			.css1{
+				animation:mystory 3s linear 0s infinite normal;
+				animation-fill-mode:both;
+			}
+			@keyframes mystory{
+				0%{transform:rotate(0deg);}
+				100%{transform:rotate(360deg);}
+			}
 		</style>
 	</head>
 	<body>
-		<div class="css1">線形</div>
-		<div class="css2">円形</div>
+		<div class="css1">Enjoy HTML5</div>
 	</body>
 </html>

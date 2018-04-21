@@ -2,28 +2,30 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>7-1</title>
+		<title>5-1</title>
+		<meta name="stylesheet" content="width=device-width">
 		<style>
-			*{margin:0px;padding:0px;}
-			div{
-				width:200px;height:200px;
-				margin:50px auto;
-				line-height:200px;
-				border:1px solid gray;
-				text-align:center;
-				background-image:url(img1.png);
+			*{margin:0;padding:0;}
+			#wrap{
+				width:800px;
+				height:500px;
+				background-color:skyblue;
+				font-size:16px;
+				margin:0 auto;
 			}
-			
-			.css1{transform:rotate(45deg);}
-			.css2{transform:scale(2,1);}
-			.css3{transform:skew(10deg,0deg);}
-			.css4{transform:translate(300px,0px);}
+
+			@media (max-width:800px){
+				#wrap{
+					width:100%;
+					background-color:yellow;
+					font-size:18px;
+				}
+			}
 		</style>
 	</head>
 	<body>
-		<div class="css1">rotate</div>
-		<div class="css2">scale</div>
-		<div class="css3">skew</div>
-		<div class="css4">translate</div>
+		<div id="wrap">
+			<p>むかしむかし、あるところに、おじいさんとおばあさんがなかよくすんでいました。おじいさんはしばかりに、おばあさんはかわにせんたくにいきました。おばあさんがふとかわかみをみると、おおきなももがどんぶらこどんぶらことながれてきました。</p>
+		</div>
 	</body>
 </html>

@@ -6,18 +6,24 @@
 		<style>
 			*{margin:0px;padding:0px;}
 			div{
-				border: 1px solid gray;
-				margin:100px auto;
 				width:200px;height:200px;
-				text-align:center;line-height:200px;font-size:30px;
+				margin:50px auto;
+				line-height:200px;
 				border:1px solid gray;
+				text-align:center;
+				background-image:url(img1.png);
 			}
-			div{
-				border-radius:15px;
-			}
+			
+			.css1{transform:rotate(45deg);}
+			.css2{transform:scale(2,1);}
+			.css3{transform:skew(10deg,0deg);}
+			.css4{transform:translate(300px,0px);}
 		</style>
 	</head>
 	<body>
-		<div>サンプル</div>
+		<div class="css1">rotate</div>
+		<div class="css2">scale</div>
+		<div class="css3">skew</div>
+		<div class="css4">translate</div>
 	</body>
 </html>

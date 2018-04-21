@@ -2,32 +2,31 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>5-2</title>
-
+		<title>8-1</title>
 		<style>
-			*{margin:0px;padding:0px;}
-			div{
-				width:200px;height:200px;
-				margin:50px auto;
-				line-height:200px;
+			*{margin:0;padding:0;}
+			#box1{
 				border:1px solid gray;
+				margin:100px auto;
+				color:black;
+				width:200px;
+				height: 200px;
 				text-align:center;
-				background-image:url(img1.png);
+				line-height:200px;
+				transition:all 1s linear;
 			}
-			
-			.css1,.css2,.css3,.css4{
-				
-			}
-			.css1{transform:rotate(45deg);}
-			.css2{transform:scale(2,1);}
-			.css3{transform:skew(10deg,0deg);}
-			.css4{transform:translate(300px,0px);}	
 		</style>
 	</head>
+
 	<body>
-		<div class="css1">rotate</div>
-		<div class="css2">scale</div>
-		<div class="css3">skew</div>
-		<div class="css4">translate</div>
+			<p id="box1" onclick="change1();">HTML5は楽しい！</p>
+
+			<script>
+				var box1 = document.getElementById("box1");
+				function change1(){
+
+				}
+		
+			</script>
 	</body>
 </html>

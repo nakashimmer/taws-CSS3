@@ -2,12 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>2-3-3</title>
+		<title>2-4-3</title>
 		<style>
-			section{}
+			section{counter-reset:nth;}
 			h2:before{
-				
-			}
+				counter-increment:nth;
+				content:"第" counter(nth) "章";
+			} 
 		</style>
 	</head>
 

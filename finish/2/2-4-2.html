@@ -2,36 +2,25 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>2-4-2</title>
+		<title>2-4-2/title>
 		<style>
-			*{margin:0px;padding:0px}
-			ol{list-style:none;}
-
-			li{
-				text-indent:2em;
-				position:relative;
-			}
-			li:before{
-				content:"";
-				background-color:pink;
-				display:block;
-				width:1em; 
-				height:1em;
-				position:absolute;
-				top:3px;
-				left:3px;
-				border-radius:50%;
+			section{counter-reset:nth;}
+			h2::before{
+				counter-increment:nth;
+				content:"第" counter(nth) "章";
 			} 
 		</style>
 	</head>
 
 	<body>
-		<ol>
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
-			<li>4</li>
-			<li>5</li>
-		</ol>
+		<h1>HTML5</h1>
+		<section>
+			<h2>HTMLについて</h2>
+			<p>HTMLは文書の構造を作ります。</p>
+			<h2>CSS3について</h2>
+			<p>CSSは見た目を作ります</p>
+			<h2>JavaScriptについて</h2>
+			<p>JavaScriptはプログラムです。</p>
+		</section>
 	</body>
 </html>

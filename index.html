@@ -2,13 +2,16 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>東京アプリ・ワークショップ「CSS3」</title>
+		<title>一日まるごとどっぷり「CSS3」</title>
 		<meta name="viewport" content="width=device-width">
 		<style>
 			*{margin:0;padding:0;font-size:16px;line-height:30px;}
 			h1{text-align:center;font-size:2em;background-color:gray;color:white;line-height:2em;}
 			main{max-width:800px;margin:0 auto;}
-			main>section{margin:0em;padding:0.5em;}
+			main>section{
+				margin:1em;padding:0.5em;
+				border:1px solid gray;
+			}
 			ol,ul{margin-left:2em;}
 			p{margin-bottom:0.5em;
 				text-align:justify;
@@ -16,7 +19,7 @@
 			}
 			a{text-decoration:none;color:brown;font-weight: bold;
 				display:inline-block;border-bottom:1px dotted red;
-				margin:0 1em;
+				margin:0 0.2em;
 			}
 			footer>p{
 				background-color:gray;color:white;
@@ -29,13 +32,15 @@
 				border-radius:1em;
 			}
 			.flex{display:flex;}
-			.flex li{list-style:none;}
+			.flex li{list-style:none;margin:0 1em;}
+			.flex div{flex:1;}
 			summary h3{display:inline;}
+			.border{border:1px solid gray;padding:2px;}
 		</style>
 	</head>
 	<body>
 		<header>
-			<h1>東京アプリ・ワークショップ「CSS3」</h1>
+			<h1>一日まるごとどっぷり「CSS3」</h1>
 		</header>
 
 		<main>
@@ -44,6 +49,20 @@
 				<p><a href="https://github.com/nakashimmer/tawsCSS3/archive/master.zip">ここをクリックして</a>ファイルをダウンロードし、展開しておいてください。</p>
 			</section>
 
+		<section>
+				<h2>1.オリエンテーション</h2>
+				<ol>
+					<li><a target="_blank" href="http://info.cern.ch/hypertext/WWW/TheProject.html">世界で最初のHP</a></li>
+
+					<li><a target="_blank" href="https://nakashimmer.github.io/showcase/css3/rich/index.html">リッチなCSS</a></li>
+					<li><a target="_blank" href="https://nakashimmer.github.io/showcase/css3/animation/spinner/index.html">アニメーション</a></li>
+					<li><a target="_blank" href="https://nakashimmer.github.io/showcase/css3/animation/3d/cube/index.html">３次元</a></li>
+					<li><a target="_blank" href="https://webtechpromo.org/">レスポンシブWeb</a></li>
+					<li><a href="https://nakashimmer.github.io/showcase/">HTML5 SHOWCASE</a></li>
+				</ol>
+				</div>
+
+			</section>
 
 			<section>
 				<h2>サンプル完成品</h2>
@@ -83,24 +102,28 @@
 						<li><a target="_blank" href="finish/5/5-3.html">5-3</a></li>
 						<li><a target="_blank" href="finish/5/5-4.html">5-4</a></li>
 					</ul>
-					<h4>6.その他の便利なCSS</h4>
-					<ul class="flex">
-						<li><a target="_blank" href="finish/6/6-1.html">6-1</a></li>
-					</ul>
 				</section>
 			
 				<section>
-					<h2>7.ご案内</h2>
-					<ul>
-						<li><a href="https://www.street-academy.com/steachers/1274?conversion_name=direct_message&tracking_code=f3037c532c76e32eb5636350d0147bc9">ストアカ</a></li>
-						<li><a href="https://tokyoappwork.shop/">オフィシャルページ</a>-<a href="https://www.facebook.com/tokyoAppWorkShop/">Facebookページ</a></li>
-						<li><a href="https://www.facebook.com/groups/welovehtml5/">情報ページ(We love HTML5)</a></li>
-						<li><a href="https://webtechpromo.org/">HTML5検定試験</a></li>
+			<h2>7.ご案内</h2>
+				<ul class="flex">
+					<li><a target="_blank" href="https://www.street-academy.com/steachers/1274?conversion_name=direct_message&tracking_code=f3037c532c76e32eb5636350d0147bc9">ストアカ</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/WholeDayHTML5LectureRoom/">講座FBページ</a></li>
+					<li><a target="_blank" href="https://www.facebook.com/groups/WholeDayHTML5Members">講座参加者グループ</a></li>
+				</ul>
+				<ul class="flex">
+					<li><a target="_blank" href="https://www.facebook.com/welovehtml5/">情報ページ(We love HTML5)</a></li>
+					<li><a target="_blank" href="https://nakashimmer.github.io/showcase/">HTML5 SHOW CASE</a></li>
+				</ul>
+				<ul class="flex">
+					<li><a target="_blank" href="https://webtechpromo.org/">HTML5検定試験</a></li>
+					<li><a target="_blank" href="https://www.amazon.co.jp/dp/4802096607/">「なかしまぁ先生のHTML5教室」</a></li>
+				</ul>
 				</section>
 			</section>
 		</main>
 		<footer>
-			<p><small>(C)東京アプリ・ワークショップ</small></p>
+			<p><small>(C)中島俊治</small></p>
 		</footer>
 	</body>
 </html>

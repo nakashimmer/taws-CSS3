@@ -15,31 +15,36 @@
 			}
 
 			/* 86p */
+			.css1,
 			.css2,
 			.css3,
 			.css4,
 			.css5{
-				transition:transform 1s linear 0s;
+				transition:all 1s linear 0s;
 			}
 
-			.css2:hover{
+			.css1:hover{
 				transform: rotate(20deg);
 			}
-			.css3:hover{
+			.css2:hover{
 				transform:scale(2,1);
 			}
-			.css4:hover{
+			.css3:hover{
 				transform:translate(100px,50px);
 			}
-			.css5:hover{
+			.css4:hover{
 				transform:skew(40deg,0deg);
+			}
+			.css5:hover{
+				color:white;background-color:red;
 			}
 		</style>
 	</head>
 	<body>
-		<div class="css2">2.回転</div>
-		<div class="css3">3.伸縮</div>
-		<div class="css4">4.移動</div>
-		<div class="css5">5.傾き</div>
+		<div class="css1">回転</div>
+		<div class="css2">伸縮</div>
+		<div class="css3">移動</div>
+		<div class="css4">傾き</div>
+		<div class="css5">CSS</div>
 	</body>
 </html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>１５時限目：トランジション</title>
+		<style>
+			*{margin:0px;padding:0px;}
+			div{
+				border:1px solid gray;
+				background-image:url(bgimg.png);
+				width:200px;height:200px;
+				margin:100px auto;
+				text-align:center;
+				line-height:200px;font-size:30px;
+			}
+
+			/* 86p */
+			.css1,
+			.css2,
+			.css3,
+			.css4,
+			.css5{
+				transition:all 1s linear 0s;
+			}
+
+			.css1:hover{
+				rotate:20deg;
+			}
+			.css2:hover{
+				scale:2 1;
+			}
+			.css3:hover{
+				translate:100px 50px;
+			}
+			.css4:hover{
+				transform:skew(40deg,0deg);
+			}
+			.css5:hover{
+				color:white;background-color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="css1">回転</div>
+		<div class="css2">伸縮</div>
+		<div class="css3">移動</div>
+		<div class="css4">傾き</div>
+		<div class="css5">CSS</div>
+	</body>
+</html>
